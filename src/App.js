@@ -4,7 +4,9 @@ import Main from './Layout/Main';
 import Blog from './Pages/Blog/Blog';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
 import Service from './Pages/Service/Service';
+import Signup from './Pages/Signup/Signup';
 
 
 
@@ -25,6 +27,14 @@ function App() {
       {
         path : '/blog',
         element : <Blog></Blog>
+      },
+      {
+        path : '/login',
+        element : <Login></Login>
+      },
+      {
+        path : '/signup',
+        element : <Signup></Signup>
       }
     ]
     },

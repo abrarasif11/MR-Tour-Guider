@@ -20,6 +20,9 @@ const Header = () => {
 			<li className="flex">
 				<Link rel="noopener noreferrer" to="/blog" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Blog</Link>
 			</li>
+			<li className="flex">
+				<Link rel="noopener noreferrer" to="/login" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Login</Link>
+			</li>
 		</ul>
 		<button className="flex justify-end p-4 md:hidden">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
