@@ -23,7 +23,7 @@ function App() {
         element : <Service></Service>
       },
       {
-        path : 'blog',
+        path : '/blog',
         element : <Blog></Blog>
       }
     ]
