@@ -52,7 +52,7 @@ const Home = () => {
     </span>
     <br />
    <span>
-   Below are some samples of my tourist guide <span className='text-green-700 text-4xl'>Services.</span>
+   Below are some sample <span className='text-green-700 text-4xl'>Packages</span> of my tourist guide <span className='text-green-700 text-4xl'>Service.</span>
    </span>
     </h1>
   </div>
