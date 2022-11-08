@@ -32,6 +32,23 @@ const Home = () => {
     </div>
   </div> 
 </div>
+  <div className='mt-16 mb-16'>
+    <h1 className='text-3xl font-poppins font-semibold'>
+       <span>
+    I am a <span className='text-green-700 text-4xl'>Professional Tourist Guide.</span> 
+      </span>
+      <br /> 
+    <span>I have <span className='text-green-700 text-4xl'>Experience</span> guiding all over the world tourist places.</span>
+    <br />
+    <span>
+    I do this very <span className='text-green-700 text-4xl'>Professionally</span>.
+    </span>
+    <br />
+   <span>
+   Below are some samples of my tourist guide <span className='text-green-700 text-4xl'>Services.</span>
+   </span>
+    </h1>
+  </div>
 </div>
     );
 };
