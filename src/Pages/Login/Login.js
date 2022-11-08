@@ -15,7 +15,6 @@ import { Link } from 'react-router-dom';
 	
 		signIn(email, password)
 		  .then((userCredential) => {
-			// Signed in
 			const user = userCredential.user;
 			console.log(user);
 			form.reset();
@@ -28,7 +27,6 @@ import { Link } from 'react-router-dom';
 	  const handleGoogleSignIn = () => {
 		googleSignIn(provider)
 		  .then((userCredential) => {
-			// Signed in
 			const user = userCredential.user;
 			console.log(user);
 		  })
@@ -43,7 +41,7 @@ import { Link } from 'react-router-dom';
 		<h1 className="my-3 text-4xl font-bold">Log in</h1>
 		<p className="text-sm dark:text-gray-400">Log in to access your account</p>
 	</div>
-	<form onSubmit={handleSubmit} novalidate="" action="" className="space-y-12 ng-untouched ng-pristine ng-valid">
+	<form onSubmit={handleSubmit}  action="" className="space-y-12 ng-untouched ng-pristine ng-valid">
 		<div className="space-y-4">
 			<div>
 				<label for="email" className="flex justify-between block mb-2 text-sm">Email address</label>
@@ -59,10 +57,10 @@ import { Link } from 'react-router-dom';
 		</div>
 		<div className="space-y-2">
 			<div>
-				<button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-black text-green-700">Log in</button>
+				<button type="submit" className="w-full px-8 py-3 font-semibold rounded-md bg-black text-green-700">Log in</button>
 			</div>
 			<p className="px-6 text-sm text-center dark:text-gray-400">Don't have an account yet?
-				<Link rel="noopener noreferrer" to='/signup' className="hover:underline text-blue-700"> Sign up</Link>.
+				<Link  to='/signup' className="hover:underline text-blue-700"> Sign up</Link>.
 			</p>
 		</div>
 	</form>
