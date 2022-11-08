@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className="px-4 py-8 bg-black text-green-700">
-	<div className="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
+	<div className="font-poppins container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
 		<div className="flex flex-row pr-3 space-x-4 sm:space-x-8">
 			<div className="flex items-center justify-center flex-shrink-0 w-20 h-12 rounded-full ">
 				<img src="https://www.pinclipart.com/picdir/big/29-290936_location-clipart-travel-tourism-world-travel-logo-png.png" alt="" />
@@ -29,7 +29,7 @@ const Footer = () => {
 			</li>
 		</ul>
 	</div>
-    <div className="py-6 text-sm text-center text-green-700">© 2022 Travel Hunter. All rights reserved.</div>
+    <div className="font-poppins py-6 text-sm text-center text-green-700">© 2022 Travel Hunter. All rights reserved.</div>
 </footer>
     );
 };

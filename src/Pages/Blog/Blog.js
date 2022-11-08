@@ -2,9 +2,9 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
+        <div >
         <section className="dark:bg-gray-800 font-poppins dark:text-gray-100">
-<div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
+<div className="font-poppins container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
     <h2 className="text-2xl font-semibold sm:text-4xl"> Question Section </h2>
     
     <div className="space-y-4 mt-10">

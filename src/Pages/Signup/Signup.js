@@ -2,7 +2,7 @@ import React from 'react';
 
 const Signup = () => {
     return (
-        <div className="w-full mt-10 mb-10 mx-auto max-w-md p-8 space-y-3 rounded-xl  bg-slate-300 dark:text-gray-100">
+        <div className="font-poppins w-full mt-10 mb-10 mx-auto max-w-md p-8 space-y-3 rounded-xl  bg-slate-300 dark:text-gray-100">
 	<h1 className="text-2xl font-bold text-center">Sign Up</h1>
 	<form novalidate="" action="" className="space-y-6 ng-untouched ng-pristine ng-valid">
 		<div className="space-y-1 text-sm">

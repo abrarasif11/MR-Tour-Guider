@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
-        <div className="mx-auto flex flex-col max-w-md p-6 rounded-md mt-10 mb-10 sm:p-10 bg-slate-300 dark:text-gray-100">
+        <div className="font-poppins mx-auto flex flex-col max-w-md p-6 rounded-md mt-10 mb-10 sm:p-10 bg-slate-300 dark:text-gray-100">
 	<div className="mb-8 text-center">
 		<h1 className="my-3 text-4xl font-bold">Log in</h1>
 		<p className="text-sm dark:text-gray-400">Log in to access your account</p>
@@ -27,7 +27,7 @@ const Login = () => {
 				<button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-black text-green-700">Log in</button>
 			</div>
 			<p className="px-6 text-sm text-center dark:text-gray-400">Don't have an account yet?
-				<Link rel="noopener noreferrer" to='/signup' className="hover:underline text-blue-700">Sign up</Link>.
+				<Link rel="noopener noreferrer" to='/signup' className="hover:underline text-blue-700"> Sign up</Link>.
 			</p>
 		</div>
 	</form>

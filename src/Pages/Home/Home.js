@@ -6,7 +6,7 @@ import banner3 from '../assets/travel-concept-with-landmarks_23-2149153256.webp'
 const Home = () => {
     return (
       <div>
-        <h1 className='text-3xl mt-10 font-bold'>Welcome To , 
+        <h1 className='font-poppins text-3xl mt-10 font-bold'>Welcome To , 
         <br />
         <span className='text-5xl text-green-700'>MR. Tour Guider</span></h1>
         <div className="carousel mx-auto rounded-xl mt-10 mb-10 w-3/4">
