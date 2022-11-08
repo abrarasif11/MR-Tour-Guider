@@ -5,9 +5,10 @@ const Header = () => {
     return (
         <header className="p-4 bg-black text-green-700">
 	<div className="container flex justify-between h-16 mx-auto">
+		
     <Link rel="noopener noreferrer" to="/" aria-label="Back to homepage" className="flex items-center p-2">
-			<h2 className='font-poppins text-4xl font-bold'>Travel Hunter</h2>
-			<img className='ps-10 w-10' src="https://www.pinclipart.com/picdir/big/29-290936_location-clipart-travel-tourism-world-travel-logo-png.png" alt="" />
+			<h2 className='font-poppins text-4xl font-bold'>Mr. Tour Guider</h2>
+			<img className='ps-10 w-10' src="http://www.transparentpng.com/thumb/travel/fOG4tx-travel-sign-icon-clipart.png" alt="" />
 		</Link>
 		<ul className="items-stretch hidden space-x-3 md:flex">
         <li className="flex">
