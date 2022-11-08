@@ -6,7 +6,7 @@ const Service = () => {
     const services = useLoaderData();
     return (
         <div>
-            <div className='grid sm:grid-cols-3 gap-3 ml-10 mt-10'>
+            <div className='grid sm:grid-cols-3 gap-3 ml-20  mt-10'>
             {
                 services.map(service => 
                 <ServiceShow

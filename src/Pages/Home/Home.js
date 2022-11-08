@@ -1,9 +1,16 @@
 import React from 'react';
+import { Link, useLoaderData, useNavigate } from 'react-router-dom';
 import banner1 from '../assets/full-shot-travel-concept-with-landmarks_23-2149153258.webp';
 import banner2 from '../assets/full-shot-woman-taking-selfie_23-2149153257.webp';
 import banner3 from '../assets/travel-concept-with-landmarks_23-2149153256.webp';
+import HomeData from './HomeData/HomeData';
 
 const Home = () => {
+  const navigate = useNavigate();
+    const handleTopics = () => {
+      navigate("/topics");
+    };
+  const homeServices = useLoaderData();
     return (
       <div>
         <h1 className='font-poppins text-3xl mt-10 font-bold'>Welcome To , 
@@ -49,6 +56,27 @@ const Home = () => {
    </span>
     </h1>
   </div>
+  <span>
+    <button className='bg-green-700 px-3 py-3 pt-4 hover:bg-black hover:text-green-700 text-4xl font-poppins font-bold text-black rounded-lg mt-10'>Here Is My Best Combo Package</button>
+  </span>
+  <div className='grid sm:grid-cols-3 gap-3 ml-10 mt-10'>
+  {
+   homeServices.slice(3).map(homeService => <HomeData
+   key={homeService._id}
+    homeService={homeService}
+   >  
+   </HomeData>)
+  }
+  </div>
+  <Link to='/services'>
+  <button
+        className="py-4 px-6 m-8 font-poppins text-xl text-black  font-medium rounded-lg bg-gradient-to-rounded-md bg-green-700
+         hover:bg-black	 hover:text-green-700"
+        onClick={handleTopics}
+      >
+        See All
+      </button>
+      </Link>
 </div>
     );
 };
