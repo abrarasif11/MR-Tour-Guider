@@ -1,7 +1,10 @@
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ServiceShow = ({service}) => {
+      
+      
     return (
         <div className="max-w-xs  mb-10 rounded-md shadow-md font-poppins bg-slate-200 dark:text-gray-100">
        <PhotoProvider speed={() => 800}
@@ -16,7 +19,10 @@ const ServiceShow = ({service}) => {
                 <p className='text-2xl font-semibold'>Price : {service.price}</p>
                 <p className="dark:text-gray-100">{service.details.slice(0,100)}...</p>
             </div>
-            <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-black text-green-700">See Details</button>
+            <Link to={`/services/${service._id}`}>
+            <button  type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-black text-green-700">See Details</button>
+           </Link>
+            
         </div>
     </div>
     );
