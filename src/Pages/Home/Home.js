@@ -7,8 +7,8 @@ import HomeData from './HomeData/HomeData';
 
 const Home = () => {
   const navigate = useNavigate();
-    const handleTopics = () => {
-      navigate("/topics");
+    const handleService = () => {
+      navigate("/services");
     };
   const homeServices = useLoaderData();
     return (
@@ -72,7 +72,7 @@ const Home = () => {
   <button
         className="py-4 px-6 m-8 font-poppins text-xl text-black  font-medium rounded-lg bg-gradient-to-rounded-md bg-green-700
          hover:bg-black	 hover:text-green-700"
-        onClick={handleTopics}
+        onClick={handleService}
       >
         See All
       </button>
