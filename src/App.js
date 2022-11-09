@@ -19,12 +19,12 @@ function App() {
       {
        path : '/',
        element : <Home></Home>,
-       loader : () => fetch('http://localhost:5000/services')
+       loader : () => fetch('https://server-assignment-11-teal.vercel.app/servicesforhome')
       },
       {
         path : '/services',
         element : <Service></Service>,
-        loader : () => fetch('http://localhost:5000/services')
+        loader : () => fetch('https://server-assignment-11-teal.vercel.app/services')
       },
       {
         path : '/blog',

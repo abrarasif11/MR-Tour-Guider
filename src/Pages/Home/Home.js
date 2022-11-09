@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link, useLoaderData, useNavigate } from 'react-router-dom';
+import useTitle from '../../useTitle';
 import banner1 from '../assets/full-shot-travel-concept-with-landmarks_23-2149153258.webp';
 import banner2 from '../assets/full-shot-woman-taking-selfie_23-2149153257.webp';
 import banner3 from '../assets/travel-concept-with-landmarks_23-2149153256.webp';
 import HomeData from './HomeData/HomeData';
 
 const Home = () => {
+  useTitle("Home")
   const navigate = useNavigate();
     const handleService = () => {
       navigate("/services");

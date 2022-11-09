@@ -1,6 +1,8 @@
 import React from 'react';
+import useTitle from '../../useTitle';
 
 const Blog = () => {
+    useTitle("Blog")
     return (
         <div >
         <section className="dark:bg-gray-800 font-poppins dark:text-gray-100">
