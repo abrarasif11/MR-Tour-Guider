@@ -61,7 +61,7 @@ const Home = () => {
   </span>
   <div className='grid sm:grid-cols-3 gap-3 ml-10 mt-10'>
   {
-   homeServices.slice(3).map(homeService => <HomeData
+   homeServices.map(homeService => <HomeData
    key={homeService._id}
     homeService={homeService}
    >  
