@@ -2,16 +2,16 @@
 This is my tourist guide website.
 
 ## Live Link 
-Hosted in Netlify -> [MR.Tour Guider]() 
+Hosted in Netlify -> [MR.Tour Guider](https://radiant-brigadeiros-f0fd38.netlify.app/) 
 
 ## My Services
-You can see my services here -> [Services]()
+You can see my services here -> [Services](https://radiant-brigadeiros-f0fd38.netlify.app/services)
 
-<!-- ## 
-You can see FAQ here -> [FAQ](https://zingy-praline-76fdca.netlify.app/faq) -->
+## Reviews 
+You can see My Reviews here -> [Reviews](https://radiant-brigadeiros-f0fd38.netlify.app/myreviews)
 
 ## Question Answer Part 
-You can also see 4 question and answer here -> [Question-Answer]()
+You can also see 4 question and answer here -> [Question-Answer](https://radiant-brigadeiros-f0fd38.netlify.app/blog)
 
 ## Resources & Credits
 Tailwind Component -> [MambaUI](https://www.mambaui.com/components) [KitWind](https://kitwind.io/products/kometa/components/)

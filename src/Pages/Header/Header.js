@@ -69,12 +69,12 @@ const Header = () => {
 				>
 				  Add Service
 				</Link>
-			    <Link
+			    <button
 				  onClick={handleLogout}
-				  className="font-medium tracking-wide text-green-700 transition-colors duration-200 hover:text-teal-accent-400"
+				  className="font-medium tracking-wide hover:bg-green-700 hover:text-white text-green-700 transition-colors duration-200 hover:text-teal-accent-400"
 				>
 				  Log Out
-				</Link>
+				</button>
 
 			   </>
 			   :

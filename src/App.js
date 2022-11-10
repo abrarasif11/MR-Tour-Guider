@@ -7,9 +7,11 @@ import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import MyReviews from './Pages/MyReviews/MyReviews';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import SeeDetails from './Pages/SeeDetails/SeeDetails';
 import Service from './Pages/Service/Service';
 import Signup from './Pages/Signup/Signup';
+import Spinner from './Pages/Spinner/Spinner';
 
 
 
@@ -33,7 +35,7 @@ function App() {
         path : '/services/:id',
         loader : ({ params }) =>
         fetch(`https://server-assignment-11-teal.vercel.app/services/${params.id}`),
-        element : <SeeDetails></SeeDetails>
+        element : <PrivateRoute><SeeDetails></SeeDetails></PrivateRoute>
       },
       {
         path : '/blog',
@@ -64,7 +66,7 @@ function App() {
   ])
   return (
     <div className="App">
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider fallbackElement={<Spinner></Spinner>} router={router}></RouterProvider>
     </div>
   );
 }
